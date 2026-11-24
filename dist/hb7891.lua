@@ -1,7 +1,7 @@
 -- HBnbHB 保护分发：指令流 + 运行时，浏览器无法直接读出脚本源码
 -- 请在执行器中运行：loadstring(game:HttpGet("https://cdn.jsdelivr.net/gh/wethical/hbnbhb-cdn@main/dist/hb7891.lua"))()
-local K = {"Hello, ","!","mode","fast","print","world"}
-local P = {{p=0,v=1,s=4,u={},b={{115,0,1},{101,{1},{{14,{{1,10},{1,20},{1,30}},{{{2,3},{2,4}}}}}},{101,{2},{{1,0}}},{110,3,{1,1},{13,3,{6,1}},nil,{{116,{{1,2}},{{12,1,{6,2},{9,{6,1},{6,3}}}}}}},{106,{10,{8,5},{{10,{6,0},{{2,6}}},{6,2},{9,{6,1},{2,3}}}}}}},{p=1,v=0,s=1,u={},b={{112,{{12,8,{2,1},{12,8,{6,0},{2,2}}}}}}}}
+local K = {"loadstring","game","HttpGet","https://cdn.jsdelivr.net/gh/wethical/hbnbhb-cdn@main/dist/hb7891.lua"}
+local P = {{p=0,v=1,s=0,u={},b={{106,{10,{10,{8,1},{{11,{8,2},3,{{2,4}}}}},{}}},{106,{10,{10,{8,1},{{11,{8,2},3,{{2,4}}}}},{}}},{106,{10,{10,{8,1},{{11,{8,2},3,{{2,4}}}}},{}}},{106,{10,{10,{8,1},{{11,{8,2},3,{{2,4}}}}},{}}}}}}
 local ENV = (type(getfenv) == "function" and getfenv()) or _ENV or _G
 local unpack = table.unpack or unpack
 local type, select, error, math = type, select, error, math
